@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 # Конфигурация
 BOT_TOKEN = "8476080850:AAHBhfAUmgbnNlhmfSS1n6fw4lqMk9xK6a8"
-ADMIN_IDS = [986688734]  # Замени на свой ID
+ADMIN_IDS = [986688734, 5082760438]  # Замени на свой ID
 
 # Состояния для ConversationHandler
 BOOK_NAME, PERSON_NAME, DUE_DATE = range(3)
@@ -703,4 +703,5 @@ def main():
     application.run_polling()
 
 if __name__ == "__main__":
+
     main()
